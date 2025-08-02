@@ -53,48 +53,48 @@ const Hero = () => {
                 <ArrowRight className="h-5 w-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
             </div>
-
-            {/* Enhanced Stats */}
-            <div className="absolute bottom-12 left-12 z-10">
-              <div className="bg-background/95 backdrop-blur-sm px-6 py-4 rounded-2xl shadow-elegant border border-primary/10">
-                <div className="text-center group cursor-pointer">
-                  <div className="text-3xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-1 group-hover:scale-110 transition-transform">50+</div>
-                  <div className="text-sm text-muted-foreground font-medium">Delicious Varieties</div>
-                </div>
-              </div>
-            </div>
           </div>
 
-          {/* Right Content - Enhanced Visual Elements */}
+          {/* Right Content - Decorative Blobs Only */}
           <div className="relative hidden lg:block">
-            {/* Floating Quality Badges */}
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
-              <div className="bg-background/95 backdrop-blur-sm px-8 py-6 rounded-2xl shadow-elegant border border-primary/10 animate-fade-in">
-                <div className="flex items-center gap-4">
-                  <div className="w-5 h-5 bg-green-500 rounded-full animate-pulse"></div>
-                  <div>
-                    <span className="text-base font-semibold text-foreground">Premium Quality</span>
-                    <p className="text-sm text-muted-foreground">Fresh Daily Baking</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div className="absolute bottom-12 right-12 z-10">
-              <div className="bg-background/95 backdrop-blur-sm px-8 py-6 rounded-2xl shadow-elegant border border-primary/10 animate-fade-in">
-                <div className="flex items-center gap-4">
-                  <div className="w-5 h-5 bg-red-500 rounded-full"></div>
-                  <div>
-                    <span className="text-base font-semibold text-foreground">Made with Love</span>
-                    <p className="text-sm text-muted-foreground">Handcrafted Perfection</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
             {/* Decorative Elements */}
             <div className="absolute top-16 -right-8 w-24 h-24 bg-primary/10 rounded-full blur-xl animate-pulse"></div>
             <div className="absolute -bottom-16 -left-8 w-32 h-32 bg-accent/20 rounded-full blur-xl animate-pulse"></div>
+          </div>
+        </div>
+      </div>
+
+      {/* Bottom 3 Aligned Floating Badges */}
+      <div className="absolute bottom-12 left-0 w-full px-8 z-10 flex justify-between items-end">
+        {/* Left - 50+ Delicious Varieties */}
+        <div className="bg-background/95 backdrop-blur-sm px-6 py-4 rounded-2xl shadow-elegant border border-primary/10">
+          <div className="text-center group cursor-pointer">
+            <div className="text-3xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-1 group-hover:scale-110 transition-transform">
+              50+
+            </div>
+            <div className="text-sm text-muted-foreground font-medium">Delicious Varieties</div>
+          </div>
+        </div>
+
+        {/* Center - Premium Quality */}
+        <div className="bg-background/95 backdrop-blur-sm px-8 py-6 rounded-2xl shadow-elegant border border-primary/10 hidden sm:flex flex-col items-center">
+          <div className="flex items-center gap-4">
+            <div className="w-5 h-5 bg-green-500 rounded-full animate-pulse"></div>
+            <div>
+              <span className="text-base font-semibold text-foreground">Premium Quality</span>
+              <p className="text-sm text-muted-foreground">Fresh Daily Baking</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Right - Made with Love */}
+        <div className="bg-background/95 backdrop-blur-sm px-8 py-6 rounded-2xl shadow-elegant border border-primary/10">
+          <div className="flex items-center gap-4">
+            <div className="w-5 h-5 bg-red-500 rounded-full"></div>
+            <div>
+              <span className="text-base font-semibold text-foreground">Made with Love</span>
+              <p className="text-sm text-muted-foreground">Handcrafted Perfection</p>
+            </div>
           </div>
         </div>
       </div>
