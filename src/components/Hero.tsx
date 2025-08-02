@@ -12,7 +12,7 @@ const Hero = () => {
           alt="Delicious handcrafted desserts"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/40" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/98 via-background/90 to-background/70" />
       </div>
 
       {/* Content */}
@@ -53,7 +53,7 @@ const Hero = () => {
                 <ArrowRight className="h-5 w-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button variant="outline" size="xl" className="border-primary/30 hover:bg-primary/5 text-base px-8 py-4">
-                Find Nearest Store
+                Visit Our Bangalore Store
               </Button>
             </div>
 
@@ -65,7 +65,7 @@ const Hero = () => {
               </div>
               <div className="text-center group cursor-pointer">
                 <div className="text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2 group-hover:scale-110 transition-transform">25+</div>
-                <div className="text-sm text-muted-foreground font-medium">Happy Locations</div>
+                <div className="text-sm text-muted-foreground font-medium">Bangalore Locations</div>
               </div>
               <div className="text-center group cursor-pointer">
                 <div className="text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2 group-hover:scale-110 transition-transform">15+</div>
