@@ -55,14 +55,10 @@ const Hero = () => {
             </div>
 
             {/* Enhanced Stats */}
-            <div className="grid grid-cols-3 gap-8 pt-12 border-t border-border/30">
+            <div className="grid grid-cols-2 gap-12 pt-12 border-t border-border/30 max-w-md">
               <div className="text-center group cursor-pointer">
                 <div className="text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2 group-hover:scale-110 transition-transform">50+</div>
                 <div className="text-sm text-muted-foreground font-medium">Delicious Varieties</div>
-              </div>
-              <div className="text-center group cursor-pointer">
-                <div className="text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2 group-hover:scale-110 transition-transform">25+</div>
-                <div className="text-sm text-muted-foreground font-medium">Bangalore Locations</div>
               </div>
               <div className="text-center group cursor-pointer">
                 <div className="text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2 group-hover:scale-110 transition-transform">15+</div>
