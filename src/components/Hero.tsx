@@ -12,7 +12,7 @@ const Hero = () => {
           alt="Delicious handcrafted desserts"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-white/95" />
+        <div className="absolute inset-0 bg-white/90" />
       </div>
 
       {/* Content */}
@@ -40,7 +40,7 @@ const Hero = () => {
             </div>
 
             {/* Subtitle */}
-            <p className="text-lg text-muted-foreground leading-relaxed max-w-xl">
+            <p className="text-lg text-primary/80 leading-relaxed max-w-xl font-medium">
               Discover our exquisite collection of handcrafted desserts, 
               guilt-free delights, and magical treats specially created for little 
               ones. Every bite tells a story of passion and perfection.
@@ -51,9 +51,6 @@ const Hero = () => {
               <Button variant="hero" size="xl" className="group text-base px-8 py-4">
                 Explore Our Menu
                 <ArrowRight className="h-5 w-5 ml-2 group-hover:translate-x-1 transition-transform" />
-              </Button>
-              <Button variant="outline" size="xl" className="border-primary/30 hover:bg-primary/5 text-base px-8 py-4">
-                Visit Our Bangalore Store
               </Button>
             </div>
 
