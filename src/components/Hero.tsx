@@ -12,7 +12,7 @@ const Hero = () => {
           alt="Delicious handcrafted desserts"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-background/98 via-background/85 to-background/60" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/40" />
       </div>
 
       {/* Content */}
