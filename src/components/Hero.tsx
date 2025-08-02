@@ -55,14 +55,10 @@ const Hero = () => {
             </div>
 
             {/* Enhanced Stats */}
-            <div className="grid grid-cols-2 gap-12 pt-12 border-t border-border/30 max-w-md">
+            <div className="grid grid-cols-1 gap-12 pt-12 border-t border-border/30 max-w-md">
               <div className="text-center group cursor-pointer">
                 <div className="text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2 group-hover:scale-110 transition-transform">50+</div>
                 <div className="text-sm text-muted-foreground font-medium">Delicious Varieties</div>
-              </div>
-              <div className="text-center group cursor-pointer">
-                <div className="text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2 group-hover:scale-110 transition-transform">15+</div>
-                <div className="text-sm text-muted-foreground font-medium">Years of Sweetness</div>
               </div>
             </div>
           </div>
@@ -70,25 +66,25 @@ const Hero = () => {
           {/* Right Content - Enhanced Visual Elements */}
           <div className="relative hidden lg:block">
             {/* Floating Quality Badges */}
-            <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 z-10">
-              <div className="bg-background/95 backdrop-blur-sm px-6 py-4 rounded-2xl shadow-elegant border border-primary/10 animate-fade-in">
-                <div className="flex items-center gap-3">
-                  <div className="w-4 h-4 bg-green-500 rounded-full animate-pulse"></div>
+            <div className="absolute -top-8 right-4 z-10">
+              <div className="bg-background/95 backdrop-blur-sm px-8 py-6 rounded-2xl shadow-elegant border border-primary/10 animate-fade-in">
+                <div className="flex items-center gap-4">
+                  <div className="w-5 h-5 bg-green-500 rounded-full animate-pulse"></div>
                   <div>
-                    <span className="text-sm font-semibold text-foreground">Premium Quality</span>
-                    <p className="text-xs text-muted-foreground">Fresh Daily Baking</p>
+                    <span className="text-base font-semibold text-foreground">Premium Quality</span>
+                    <p className="text-sm text-muted-foreground">Fresh Daily Baking</p>
                   </div>
                 </div>
               </div>
             </div>
             
-            <div className="absolute top-1/2 -right-12 transform -translate-y-1/2 z-10">
-              <div className="bg-background/95 backdrop-blur-sm px-6 py-4 rounded-2xl shadow-elegant border border-primary/10 animate-fade-in">
-                <div className="flex items-center gap-3">
-                  <div className="w-4 h-4 bg-red-500 rounded-full"></div>
+            <div className="absolute top-1/2 -right-8 transform -translate-y-1/2 z-10">
+              <div className="bg-background/95 backdrop-blur-sm px-8 py-6 rounded-2xl shadow-elegant border border-primary/10 animate-fade-in">
+                <div className="flex items-center gap-4">
+                  <div className="w-5 h-5 bg-red-500 rounded-full"></div>
                   <div>
-                    <span className="text-sm font-semibold text-foreground">Made with Love</span>
-                    <p className="text-xs text-muted-foreground">Handcrafted Perfection</p>
+                    <span className="text-base font-semibold text-foreground">Made with Love</span>
+                    <p className="text-sm text-muted-foreground">Handcrafted Perfection</p>
                   </div>
                 </div>
               </div>
