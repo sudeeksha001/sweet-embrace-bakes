@@ -29,12 +29,12 @@ const SugarlessBites = () => {
             
             <h1 className="text-5xl font-bold mb-6">
               <span className="bg-gradient-primary bg-clip-text text-transparent">
-                Sugarless Bites
+                Guilt Free Bites
               </span>
             </h1>
             
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Indulge guilt-free with our sugarless collection. Made with natural sweeteners 
+              Indulge guilt-free with our collection. Made with natural sweeteners 
               and wholesome ingredients, these treats prove that healthy can be delicious. 
               Perfect for diabetics and health-conscious dessert lovers.
             </p>

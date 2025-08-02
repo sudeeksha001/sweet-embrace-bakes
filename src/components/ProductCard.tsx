@@ -28,7 +28,7 @@ const ProductCard = ({
   const getCategoryBadge = () => {
     switch (categoryType) {
       case 'sugarless':
-        return <Badge variant="secondary" className="bg-green-100 text-green-800">Sugar-Free</Badge>;
+        return <Badge variant="secondary" className="bg-green-100 text-green-800">Guilt-Free</Badge>;
       case 'kids':
         return <Badge variant="secondary" className="bg-blue-100 text-blue-800">Kids Special</Badge>;
       default:
@@ -71,14 +71,6 @@ const ProductCard = ({
           {getCategoryBadge()}
         </div>
 
-        {/* Discount Badge */}
-        {discount && (
-          <div className="absolute bottom-3 left-3">
-            <Badge className="bg-red-500 text-white">
-              {discount}% OFF
-            </Badge>
-          </div>
-        )}
       </div>
 
       <CardContent className="p-4">
@@ -95,9 +87,6 @@ const ProductCard = ({
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <span className="text-2xl font-bold text-primary">₹{price}</span>
-              {basePrice && basePrice !== price && (
-                <span className="text-sm text-muted-foreground line-through">₹{basePrice}</span>
-              )}
             </div>
             
             <Button 

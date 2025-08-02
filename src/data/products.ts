@@ -188,14 +188,19 @@ export const baseProducts: Product[] = [
 
 // Function to calculate prices for different categories
 export const calculatePrice = (basePrice: number, category: 'special' | 'sugarless' | 'kids') => {
+  let price;
   switch (category) {
     case 'sugarless':
-      return Math.round(basePrice * 1.2); // +20%
+      price = Math.round(basePrice * 1.2); // +20%
+      break;
     case 'kids':
-      return Math.round(basePrice * 0.7); // -30%
+      price = Math.round(basePrice * 0.7); // -30%
+      break;
     default:
-      return basePrice;
+      price = basePrice;
   }
+  // Round to nearest 10
+  return Math.round(price / 10) * 10;
 };
 
 export const getCategoryProducts = (category: 'special' | 'sugarless' | 'kids') => {

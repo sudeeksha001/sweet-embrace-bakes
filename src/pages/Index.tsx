@@ -23,9 +23,9 @@ const Index = () => {
         linkTo="/special-bites"
       />
       
-      {/* Sugarless Bites Section */}
+      {/* Guilt Free Bites Section */}
       <CategorySection
-        title="Sugarless Bites"
+        title="Guilt Free Bites"
         description="Indulge guilt-free with our health-conscious collection made with natural sweeteners, perfect for diabetics and health enthusiasts."
         products={sugarlessProducts}
         categoryType="sugarless"
