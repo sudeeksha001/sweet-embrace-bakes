@@ -17,7 +17,7 @@ const Index = () => {
       {/* Special Bites Section */}
       <CategorySection
         title="Special Bites"
-        description="Our signature collection of premium handcrafted desserts made with the finest ingredients for those special moments."
+        description="Our signature collection of premium handcrafted desserts made with the finest ingredients. Each creation is a masterpiece designed to make your special moments truly unforgettable."
         products={specialProducts}
         categoryType="special"
         linkTo="/special-bites"
@@ -26,7 +26,7 @@ const Index = () => {
       {/* Guilt Free Bites Section */}
       <CategorySection
         title="Guilt Free Bites"
-        description="Indulge guilt-free with our health-conscious collection made with natural sweeteners, perfect for diabetics and health enthusiasts."
+        description="Indulge without compromise with our health-conscious collection made with natural sweeteners and wholesome ingredients. Perfect for diabetics, fitness enthusiasts, and anyone who values their well-being."
         products={sugarlessProducts}
         categoryType="sugarless"
         linkTo="/sugarless-bites"
@@ -35,7 +35,7 @@ const Index = () => {
       {/* Kids Edition Section */}
       <CategorySection
         title="Kids Edition"
-        description="Fun-sized treats designed especially for little ones with playful designs and pocket-friendly prices."
+        description="Magical treats designed especially for little ones with playful designs, kid-friendly flavors, and pocket-friendly prices. Every bite brings joy and creates sweet childhood memories."
         products={kidsProducts}
         categoryType="kids"
         linkTo="/kids-edition"
