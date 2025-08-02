@@ -74,7 +74,7 @@ const Hero = () => {
           {/* Right Content - Enhanced Visual Elements */}
           <div className="relative hidden lg:block">
             {/* Floating Quality Badges */}
-            <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 z-10">
+            <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 z-10">
               <div className="bg-background/95 backdrop-blur-sm px-6 py-4 rounded-2xl shadow-elegant border border-primary/10 animate-fade-in">
                 <div className="flex items-center gap-3">
                   <div className="w-4 h-4 bg-green-500 rounded-full animate-pulse"></div>
@@ -86,7 +86,7 @@ const Hero = () => {
               </div>
             </div>
             
-            <div className="absolute -bottom-8 right-8 z-10">
+            <div className="absolute top-1/2 -right-12 transform -translate-y-1/2 z-10">
               <div className="bg-background/95 backdrop-blur-sm px-6 py-4 rounded-2xl shadow-elegant border border-primary/10 animate-fade-in">
                 <div className="flex items-center gap-3">
                   <div className="w-4 h-4 bg-red-500 rounded-full"></div>
